@@ -1,0 +1,1 @@
+#define input1 freopen("ejemplo1.txt", "r", stdin)
