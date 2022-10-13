@@ -17,6 +17,7 @@ struct node {
 void init() {
     trie = new node();  // Instanciar el objeto trie
 }
+
 void insertWord(string word) {   // alba 
     node *currentNode =  trie;  
     for (int i = 0; i< word.length(); i++) { // alba
@@ -44,8 +45,28 @@ bool searchWord(string word) {   // alto
     cout<<currentNode->currentCharacter<<endl;
     return currentNode->isWord;
 }
+/* bool isInArray(string word) {   // alto 
+    char auxWord[word.length()];
+    for (int i=0;i<word.length();i++){
+        auxWord[i]=word.at(i);
+    }
+    string newWord="";
+    for (int i=0;i<word.length();i++){
+        newWord=newWord+auxWord[i];
+        if(searchWord(newWord)&&i==word.length()){
+            return true;
+        }
+        else if(!searchWord(newWord)&&i==word.length()){
+            return false;
+        }
+        else{
+            newWord="";
+            continue;
+        }
 
-
+    }
+}
+/*
 /*
 int findWords(string prefix) {   // alto 
     node *currentNode =  trie;  
@@ -81,13 +102,14 @@ int main() {
 
     // Inicializar Trie
     init();  
-    string word = "auto";
+    string word = "como";
     insertWord(word);
-    isThereWord(word);
-    word = "automovil";   
+    word="mono"; 
     insertWord(word);
-    isThereWord("auto");
-    isThereWord(word);
-    cout<<"pilin";
-    return 0;
+    word="co";
+    insertWord(word);
+    word="Sofia";
+    insertWord(word);
+    word="comonoSofia";
+
 }

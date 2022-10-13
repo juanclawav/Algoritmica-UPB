@@ -25,9 +25,9 @@ struct node{
 void init(int inicio, int final, int nodoActual) { 
     if( inicio == final ) {
         segmentTree[nodoActual].max = a[inicio];
-        segmentTree[nodoActual].min = a[inicio];
-        segmentTree[nodoActual].sum = a[inicio];
-        segmentTree[nodoActual].gcd = a[inicio];
+        // segmentTree[nodoActual].min = a[inicio];
+        // segmentTree[nodoActual].sum = a[inicio];
+        // segmentTree[nodoActual].gcd = a[inicio];
     } else {
         int mid = (inicio + final) / 2; 
         int nodoIzquierdo = 2 * nodoActual + 1; 
@@ -38,9 +38,9 @@ void init(int inicio, int final, int nodoActual) {
         init(mid+1, final, nodoDerecho);
 
         segmentTree[nodoActual].sum = segmentTree[nodoIzquierdo].sum + segmentTree[nodoDerecho].sum;
-        segmentTree[nodoActual].max = max(segmentTree[nodoIzquierdo].max,  segmentTree[nodoDerecho].max);
-        segmentTree[nodoActual].min = min(segmentTree[nodoIzquierdo].min, segmentTree[nodoDerecho].min);
-        segmentTree[nodoActual].gcd = gcd(segmentTree[nodoIzquierdo].gcd, segmentTree[nodoDerecho].gcd);
+        // segmentTree[nodoActual].max = max(segmentTree[nodoIzquierdo].max,  segmentTree[nodoDerecho].max);
+        // segmentTree[nodoActual].min = min(segmentTree[nodoIzquierdo].min, segmentTree[nodoDerecho].min);
+        // segmentTree[nodoActual].gcd = gcd(segmentTree[nodoIzquierdo].gcd, segmentTree[nodoDerecho].gcd);
     } 
 }
 
