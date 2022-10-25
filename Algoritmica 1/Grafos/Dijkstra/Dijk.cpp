@@ -5,7 +5,7 @@
 using namespace std;
 // Pair Dist, vertice // la distancia primero porque necesitamos ordenar de acuerdo a la distancia
 vector<pair<int, int> > grafo[100000];
-int visitados[100000]; 
+int visited[100000]; 
 int distancia[100000];
 
 void dijkstra(int verticeInicial)
@@ -14,7 +14,7 @@ void dijkstra(int verticeInicial)
     for(int i = 0; i < 100000; i++)
         distancia[i] = INF;
     // Todos los nodos como no visitado
-    memset(visitados, 0, sizeof(visitados));
+    memset(visited, 0, sizeof(visited));
    // cola de prioridad priority_queue <pair<int, int>, greater<> > cola;
    // va ordenar de mayor a menor 
     multiset<pair<int, int> > colaPrioridad; 
@@ -26,9 +26,9 @@ void dijkstra(int verticeInicial)
         colaPrioridad.erase(colaPrioridad.begin()); // pop()
         int vertice = verticeActual.second; // el nodo de donde se esta viniendo
         int peso = verticeActual.first; // distancia 
-        if (!visitados[vertice])
+        if (!visited[vertice])
         {
-            visitados[vertice] = true;
+            visited[vertice] = true;
             for (int i = 0; i < grafo[vertice].size(); i++)
             {
                 int verticeVecino = grafo[vertice][i].second;

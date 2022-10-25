@@ -9,6 +9,16 @@
         "ostream": "cpp",
         "regex": "cpp",
         "utility": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "bitset": "cpp",
+        "limits": "cpp",
+        "streambuf": "cpp",
+        "chrono": "cpp",
+        "condition_variable": "cpp",
+        "mutex": "cpp",
+        "shared_mutex": "cpp",
+        "thread": "cpp",
+        "new": "cpp",
+        "valarray": "cpp"
     }
 }
