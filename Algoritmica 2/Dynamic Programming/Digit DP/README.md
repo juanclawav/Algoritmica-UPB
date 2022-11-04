@@ -6,7 +6,7 @@
  
  ### Definición 
    
-    Digit Dp como su nombre indica, es una técnica de programación dinámica en la que utilizamos los dígitos de los números para llegar a la solución final. 
+   Digit Dp como su nombre indica, es una técnica de programación dinámica en la que utilizamos los dígitos de los números para llegar a la solución final. 
    Esta técnica resuelve aquellos problemas que conciernen a los dígitos entre dos números enteros especificados.
    Para encontrar la solución, tratamos de construir todos los enteros entre los dos enteros dados y calculamos la solución en el camino.
    El algoritmo es muy útil para resolver problemas relacionados con un rango de números, como encontrar la suma de dígitos entre dos números a y b, o encontrar 
