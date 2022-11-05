@@ -1,49 +1,26 @@
-#include <bits/stdc++.h> 
-#define input freopen("in.txt", "r", stdin)
-#define output freopen("out.txt", "w", stdout)
+#include <bits/stdc++.h>
 using namespace std;
-int n; 
-int v[100010];
-bool f(int k) {
-    for(int i=1;i<=n;i++) {
-        if(v[i]-v[i-1]>k) {
-            return false;
-        }
-        if(v[i]-v[i-1]==k) {
-            k--;
-        }
+int binarySearch(int arr[], int l, int r, int x)
+{
+    if (r >= l) {
+        int mid = l + (r - l) / 2;
+ 
+        if (arr[mid] == x)
+            return mid;
+        if (arr[mid] > x)
+            return binarySearch(arr, l, mid - 1, x);
+        return binarySearch(arr, mid + 1, r, x);
     }
-    return true;
+    return -1;
 }
-
-
-int binarySearch() {
-    long long left  = 0;
-    long long right = 2*v[n];  // ojo 
-    long long answer = right;
-    while( left < right - 1 ) {
-        long long mid = left +(right -left)/2;
-        if(f(mid)) {
-            answer = mid;
-            right = mid;
-        }
-        else{
-            left = mid;
-        }
-    }
-    return answer;
-}
-
-int main() {
-    input;
-    int t; cin>>t; int cases = 1;
-    while(t--) {
-        cin>>n;
-        // v[0] sera 0 que significa el piso;
-        for(int i=1;i<=n;i++) {
-           cin>>v[i];
-        }
-        cout<<"Case "<<cases++<<": "<<binarySearch()<<endl;
-    }
+int main(void)
+{
+    int arr[] = { 2, 3, 4, 10, 40 };
+    int x = 10;
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int result = binarySearch(arr, 0, n - 1, x);
+    (result == -1)
+        ? cout << "Elemento no presente"
+        : cout << "Elemento presente en indice: " << result;
     return 0;
 }
