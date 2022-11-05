@@ -1,6 +1,6 @@
 <div align="center">  
 
-# Digit DP
+# Edit Distance
 
  <div align="left"> 
  
