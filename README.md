@@ -53,11 +53,11 @@
    [Código](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Teoria%20de%20Grafos/PRIM/PRIM.cpp)  
   ### Tema 3: Algoritmos de Máximo Flujo
     Ford Fulkerson
-    [Descripción]()
-    [Código]()
+    [Descripción](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Teoria%20de%20Grafos/Maximo%20Flujo/Ford%20Fulkerson)
+    [Código](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Teoria%20de%20Grafos/Maximo%20Flujo/Ford%20Fulkerson/ford.cpp)
     Edmonds Karp
-    [Descripción]()
-    [Código]()
+    [Descripción](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Teoria%20de%20Grafos/Maximo%20Flujo/Edmond's%20Karp)
+    [Código](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Teoria%20de%20Grafos/Maximo%20Flujo/Edmond's%20Karp/edmonds.cpp)
  ## Capítulo 5: Geometría Computacional
     [Descripción](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Geometria%20Computacional/README.md)
     [Codigo](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Geometria%20Computacional)
