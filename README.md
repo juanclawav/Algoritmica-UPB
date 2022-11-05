@@ -17,36 +17,47 @@
   [Trie Map](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algo2/EstructurasDeDatos/Trie/TrieConMapa.cpp)  
  
   ### Tema 2: Union Find
-  [Descripción]()
+  [Descripción](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/EstructurasDeDatos/UnionFind)
   [Código](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algo2/EstructurasDeDatos/UnionFind/UnionFind.cpp)  
   
   ### Tema 3: Segment Tree
-  [Descripción]()
+  [Descripción](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/EstructurasDeDatos/Segment%20Tree)
   [Código](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algo2/EstructurasDeDatos/Segment%20Tree/segmentTree.cpp)  
  
   ### Tema 4: BIT
-  [Descripción]()
+  [Descripción](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/EstructurasDeDatos/BIT)
   [Código](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algo2/EstructurasDeDatos/BIT)  
-  
  
   ## Capítulo 2: Backtracking 
-   [Definición]()  
-   [Problemas]()
+   [Definición](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Backtracking)  
+   [Problemas](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Backtracking/Sudoku.cpp)
  ## Capítulo 3: Dynamic Programming  
   
    [Definición](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Dynamic%20Programming)  
    ### Tema 1: Digit DP
-  [Descripción]()
-  [Código]()
+  [Descripción](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Dynamic%20Programming/Digit%20DP)
+  [Código](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Dynamic%20Programming/Digit%20DP/DigitDP.cpp)
+  ### Tema 2: Subset Sum
+  [Descripción](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Dynamic%20Programming/Subset%20Sum)
+  [Código](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Dynamic%20Programming/Subset%20Sum/SubsetSum.cpp)
+  ### Tema 3: Binary Search
+  [Descripción](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Dynamic%20Programming/Binary%20Search)
+  [Código](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Dynamic%20Programming/Binary%20Search/binarySearch.cpp)
   
-   <div align="left">  
- 
   ## Capítulo 4: Teoría de Grafos    
   ### Tema 1: Algoritmo de Kruskal  
-   [Definición]()  
-   [Código]()  
+   [Definición](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Teoria%20de%20Grafos/Kruskal)  
+   [Código](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Teoria%20de%20Grafos/Kruskal/Kruskal.cpp)  
   ### Tema 2: Algoritmo PRIM  
-   [Definición]()  
-   [Código Cola de Prioridad]()  
-   [Código Sin Cola de Prioridad]()  
-   [Problemas]()  
+   [Definición](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Teoria%20de%20Grafos/PRIM)  
+   [Código](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Teoria%20de%20Grafos/PRIM/PRIM.cpp)  
+  ### Tema 3: Algoritmos de Máximo Flujo
+    Ford Fulkerson
+    [Descripción]()
+    [Código]()
+    Edmonds Karp
+    [Descripción]()
+    [Código]()
+ ## Capítulo 5: Geometría Computacional
+    [Descripción](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Geometria%20Computacional/README.md)
+    [Codigo](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Geometria%20Computacional)
