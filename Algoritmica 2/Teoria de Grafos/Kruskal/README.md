@@ -10,8 +10,8 @@ En un árbol de expansión se dice que la cantidad de aristas del árbol es la c
 
 
 ### Código 
-- [Kruskal](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Teoria%20de%20Grafos/Kruskal/Kruskal.cpp)
+* [Kruskal](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Teoria%20de%20Grafos/Kruskal/Kruskal.cpp)
 
 ### Bibliografía
-- [Video de apoyo](https://www.youtube.com/watch?v=fAuF0EuZVCk). Kruskal Structure.
-- [Algoritmo de Kruskal](https://es.wikipedia.org/wiki/Algoritmo_de_Kruskal#:~:text=El%20algoritmo%20de%20Kruskal%20es,del%20%C3%A1rbol%20es%20el%20m%C3%ADnimo.)
+YouTube. [Video de apoyo](https://www.youtube.com/watch?v=fAuF0EuZVCk). Kruskal Structure.
+Wikipedia. [Algoritmo de Kruskal](https://es.wikipedia.org/wiki/Algoritmo_de_Kruskal#:~:text=El%20algoritmo%20de%20Kruskal%20es,del%20%C3%A1rbol%20es%20el%20m%C3%ADnimo.)
