@@ -32,7 +32,6 @@
    [Definición](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Backtracking)  
    [Problemas](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Backtracking/Sudoku.cpp)
  ## Capítulo 3: Dynamic Programming  
-  
    [Definición](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Dynamic%20Programming)  
    ### Tema 1: Digit DP
   [Descripción](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Dynamic%20Programming/Digit%20DP)
@@ -52,12 +51,12 @@
    [Definición](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Teoria%20de%20Grafos/PRIM)  
    [Código](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Teoria%20de%20Grafos/PRIM/PRIM.cpp)  
   ### Tema 3: Algoritmos de Máximo Flujo
-    Ford Fulkerson
-    [Descripción](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Teoria%20de%20Grafos/Maximo%20Flujo/Ford%20Fulkerson)
-    [Código](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Teoria%20de%20Grafos/Maximo%20Flujo/Ford%20Fulkerson/ford.cpp)
+   Ford Fulkerson
+   [Descripción](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Teoria%20de%20Grafos/Maximo%20Flujo/Ford%20Fulkerson)
+   [Código](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Teoria%20de%20Grafos/Maximo%20Flujo/Ford%20Fulkerson/ford.cpp)
     Edmonds Karp
-    [Descripción](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Teoria%20de%20Grafos/Maximo%20Flujo/Edmond's%20Karp)
-    [Código](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Teoria%20de%20Grafos/Maximo%20Flujo/Edmond's%20Karp/edmonds.cpp)
+   [Descripción](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Teoria%20de%20Grafos/Maximo%20Flujo/Edmond's%20Karp)
+   [Código](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Teoria%20de%20Grafos/Maximo%20Flujo/Edmond's%20Karp/edmonds.cpp)
  ## Capítulo 5: Geometría Computacional
-    [Descripción](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Geometria%20Computacional/README.md)
-    [Codigo](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Geometria%20Computacional)
+   [Descripción](https://github.com/juanclawav/Algoritmica-UPB/blob/main/Algoritmica%202/Geometria%20Computacional/README.md)
+   [Codigo](https://github.com/juanclawav/Algoritmica-UPB/tree/main/Algoritmica%202/Geometria%20Computacional)
